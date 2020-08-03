@@ -282,8 +282,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o2c-MZ-vzF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="328"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Willy Adinata Saragih" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHb-zR-GI8">
-                                <rect key="frame" x="83" y="239" width="249" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Willy Adinata Saragih" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHb-zR-GI8">
+                                <rect key="frame" x="82.5" y="236" width="249" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="249" placeholder="YES" id="WLd-hf-9JM"/>
+                                    <constraint firstAttribute="height" constant="30" id="Wyd-K8-x42"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="249" id="d3e-CC-ei0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="ncE-xf-nLa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -293,6 +299,8 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="JvI-UD-5Wp"/>
                                     <constraint firstAttribute="height" constant="200" id="OS7-IQ-5ts"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="jHv-ws-Clj"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="syg-vZ-0gS"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bekasi, Indonesia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlm-6d-nwr">
@@ -304,6 +312,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="7hd-kf-6mc" firstAttribute="leading" secondItem="wv3-f6-4bG" secondAttribute="leading" constant="107" id="2hB-j1-bQe"/>
                             <constraint firstItem="Vlm-6d-nwr" firstAttribute="centerX" secondItem="NAG-ix-BE6" secondAttribute="centerX" id="AxV-p6-9ep"/>
                             <constraint firstItem="Vlm-6d-nwr" firstAttribute="top" secondItem="LHb-zR-GI8" secondAttribute="bottom" constant="8" id="Dhk-Dg-Gae"/>
                             <constraint firstItem="o2c-MZ-vzF" firstAttribute="leading" secondItem="NAG-ix-BE6" secondAttribute="leading" id="Kbm-lh-JjT"/>
@@ -311,6 +320,7 @@
                             <constraint firstItem="o2c-MZ-vzF" firstAttribute="top" secondItem="NAG-ix-BE6" secondAttribute="top" id="T9Z-Ju-MHc"/>
                             <constraint firstItem="LHb-zR-GI8" firstAttribute="centerX" secondItem="NAG-ix-BE6" secondAttribute="centerX" id="VAV-2C-j25"/>
                             <constraint firstItem="7hd-kf-6mc" firstAttribute="top" secondItem="NAG-ix-BE6" secondAttribute="top" constant="24" id="bbI-Sc-0px"/>
+                            <constraint firstItem="wv3-f6-4bG" firstAttribute="trailing" secondItem="7hd-kf-6mc" secondAttribute="trailing" constant="107" id="dmU-bZ-eM7"/>
                             <constraint firstItem="7hd-kf-6mc" firstAttribute="centerX" secondItem="NAG-ix-BE6" secondAttribute="centerX" id="jBK-al-T1g"/>
                             <constraint firstAttribute="trailing" secondItem="o2c-MZ-vzF" secondAttribute="trailing" id="neE-Mp-wJc"/>
                             <constraint firstItem="LHb-zR-GI8" firstAttribute="top" secondItem="7hd-kf-6mc" secondAttribute="bottom" constant="12" id="yWg-Ci-n51"/>
@@ -336,9 +346,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="android" translatesAutoresizingMaskIntoConstraints="NO" id="k2Q-rR-VYt">
-                                <rect key="frame" x="97" y="232" width="220" height="220"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="android" translatesAutoresizingMaskIntoConstraints="NO" id="k2Q-rR-VYt">
+                                <rect key="frame" x="57" y="181" width="300" height="220"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="Fgd-j5-7mz"/>
+                                    <constraint firstAttribute="height" constant="220" id="J7E-Mx-xKs"/>
                                     <constraint firstAttribute="width" constant="300" id="aTi-Yd-7MO"/>
                                 </constraints>
                             </imageView>
@@ -370,7 +382,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6hl-Lh-cRL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3381" y="106"/>
+            <point key="canvasLocation" x="3379.7101449275365" y="105.80357142857143"/>
         </scene>
         <!--Academies View Controller-->
         <scene sceneID="Of2-9B-txF">
