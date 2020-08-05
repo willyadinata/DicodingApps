@@ -1,8 +1,5 @@
 language: objective-c
 osx_image: xcode11.4
-
-script:
-  - xcodebuild test -project DicodingApps.xcodeproj
-  - scheme DicodingApps
-  - destination "platform=iOS Simulator,name=iPhone 7"
-  - sdk iphonesimulator11.0 CODE_SIGNING_REQUIRED=NO
+xcode_project: DicodingApps.xcodeproj
+xcode_scheme: DicodingAppsTests
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
