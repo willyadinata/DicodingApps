@@ -17,6 +17,7 @@
 		FECA1244245C1F4F0094A1A0 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA1243245C1F4F0094A1A0 /* AcademiesViewController.swift */; };
 		FECA1246245C1F6A0094A1A0 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA1245245C1F6A0094A1A0 /* ChallengesViewController.swift */; };
 		FECA1248245C1F840094A1A0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA1247245C1F840094A1A0 /* ProfileViewController.swift */; };
+		FEEBA1CE24DA608F00D7DFF2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = FEEBA1CD24DA608F00D7DFF2 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FECA1243245C1F4F0094A1A0 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
 		FECA1245245C1F6A0094A1A0 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
 		FECA1247245C1F840094A1A0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FEEBA1CD24DA608F00D7DFF2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		FE096536245A1E3800370000 = {
 			isa = PBXGroup;
 			children = (
+				FEEBA1CD24DA608F00D7DFF2 /* .travis.yml */,
 				FE096541245A1E3800370000 /* DicodingApps */,
 				FE096540245A1E3800370000 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				FE09654F245A1E3A00370000 /* LaunchScreen.storyboard in Resources */,
 				FE09654C245A1E3A00370000 /* Assets.xcassets in Resources */,
+				FEEBA1CE24DA608F00D7DFF2 /* .travis.yml in Resources */,
 				FE09654A245A1E3800370000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
